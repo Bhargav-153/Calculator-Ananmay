@@ -1,0 +1,44 @@
+body{
+    background-image: url("img.png");
+    background-size: cover;
+}
+
+.container1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.calc{
+    display: inline-block;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 42px;
+    border: 3px solid black;
+    height: 47px;
+    font-family: 'Gemunu Libre', sans-serif;
+    width: 349px;
+    border-radius: 15px;
+}
+
+button{
+    font-size: 31px;
+    background: cyan;
+    width: 77px;
+    height: 65px;
+    border-radius: 19%;
+    border: 3px solid rgb(144 161 249);
+    padding: 10px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(109, 109, 214);
+    transition-duration: 500ms;
+}
